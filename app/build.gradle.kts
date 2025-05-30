@@ -42,7 +42,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     // TensorFlow Lite
-    implementation ("org.tensorflow:tensorflow-lite:2.15.0")
+    implementation ("org.tensorflow:tensorflow-lite:2.18.0")
     implementation ("org.tensorflow:tensorflow-lite-support:0.4.4")
 
     // ML Kit Face Detection
