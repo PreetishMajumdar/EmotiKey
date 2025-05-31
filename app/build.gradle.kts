@@ -49,10 +49,12 @@ dependencies {
     implementation ("com.google.mlkit:face-detection:16.1.7")
 
     // CameraX
-    implementation ("androidx.camera:camera-core:1.3.1")
-    implementation ("androidx.camera:camera-camera2:1.3.1")
-    implementation ("androidx.camera:camera-lifecycle:1.3.1")
-    implementation ("androidx.camera:camera-view:1.3.1")
+    implementation ("androidx.camera:camera-core:1.3.4")
+    implementation ("androidx.camera:camera-camera2:1.3.4")
+    implementation ("androidx.camera:camera-lifecycle:1.3.4")
+    implementation ("androidx.camera:camera-view:1.3.4")
+    implementation ("androidx.camera:camera-mlkit-vision:1.3.0")
+
 
     // Permission handling
     implementation ("pub.devrel:easypermissions:3.0.0")
