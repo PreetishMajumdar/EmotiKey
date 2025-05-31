@@ -89,26 +89,6 @@ EmotiKey is an innovative virtual keyboard designed for Android that captures us
 - ML Model: Custom-trained CNN converted to `.tflite` format
 - CameraX API (for live camera feed)
 
----
-
-## 🏗️ Project Structure
-EmotiKey/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/emotikey/
-│   │   │   │   ├── ui/                 # Keyboard UI components
-│   │   │   │   ├── ml/                 # Emotion recognition logic
-│   │   │   │   ├── camera/             # Front camera handling
-│   │   │   │   └── utils/              # Helper functions
-│   │   │   ├── assets/
-│   │   │   │   └── model.tflite        # Pretrained emotion model
-│   │   │   ├── res/
-│   │   │   │   └── layout/             # XML layouts
-│   │   │   └── AndroidManifest.xml
-├── README.md
-└── build.gradle
-
 
 ---
 
